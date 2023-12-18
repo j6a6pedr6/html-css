@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em vários dipositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 350px)" srcset="imagens/imagem_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem_m.png" type="image/png">
+        <img src="imagens/imagem_g.png" alt="imagem flexível">
+    </picture>
+    <h1>Adicionando audio no site</h1>
+    <p>Agora vamos escultar uma música bem dansante</p>
+    <audio controls>
+         <source src="midia" type="audio/mpeg">
+         <source src="midia/illogical-NormaRockwell.ogg" type="audio/ogg">
+         <source src="midia/illogical-NormaRockwell.wave" type="audio/wave">
+         <p>Infelizmente seu navegasor não repodruz audio <a href="midia/illogical-NormaRockwell.mp3" download="illogical-NormaRockwell.mp3" type="audio/mpeg">Click para fazer o download </a></p>
+    </audio>
+</body>
+</html>

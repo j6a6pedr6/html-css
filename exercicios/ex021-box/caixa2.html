@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupe box</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        h1, h2{
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
+            text-align: center;
+        }
+
+        nav > a{
+            text-decoration: none;
+            background-color: rgb(118, 147, 156);
+            font-weight: bold;
+            color: white;
+            padding: 2px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.329);
+            border-radius: 3px;
+        }
+
+        nav > a:hover{
+            background-color: white;
+            color: rgb(118, 147, 156);
+        }
+
+        section{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        section > p{
+            text-align: center;
+            display: inline-block;
+            background-color: rgb(118, 147, 156);
+            color: white;
+            height: 20px;
+            width: 120px;
+            padding: 2px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.329);
+            border-radius: 6px;
+        }
+
+        section > p:hover{
+            background-color: white;
+            color: rgb(118, 147, 156);
+        }
+
+        article{
+            background-color: rgba(178, 214, 224, 0.37);
+        }
+
+        aside{
+            text-align: right;
+        }
+
+        footer{
+            background-color: rgb(68, 78, 82);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: magenta;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A hora certa da notícia</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Ultimas notícias no(s):</h2>
+            <p>Esportes</p>
+            <p>Entreterimento</p>
+            <p>Saúde</p>
+        </section>
+        <section>
+            <h2>Oponião</h2>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta facere ad fugit laudantium ab voluptate dolores autem? Quos molestiae aperiam ducimus, exercitationem quibusdam facere! Consequuntur natus laboriosam deserunt suscipit ea?</p>
+                <aside>- Marcos Viana</aside>
+                <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta facere ad fugit laudantium ab voluptate dolores autem? Quos molestiae aperiam ducimus, exercitationem quibusdam facere! Consequuntur natus laboriosam deserunt suscipit ea?</p>
+                <aside>- Pedro Viana</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Feito pelo primeiro e unico  CABEÇA </p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

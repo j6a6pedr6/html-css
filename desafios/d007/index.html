@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d007</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Essa imagem deve mudar de tamnho</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/penhasco-300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/penhasco-700.jpg" type="image/jpg">
+        <img src="imagens/penhasco-1000.jpg" alt="pessoa em penhasco">
+    </picture>
+</body>
+</html>
