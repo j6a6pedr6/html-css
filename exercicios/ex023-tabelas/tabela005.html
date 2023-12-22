@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colunas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        th, td{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+        }
+
+        .nome{
+            background-color: lightblue;
+        }
+
+        .sexo{
+            background-color: rgb(126, 201, 226);
+        }
+
+        .idade{
+            background-color: lightcyan;
+        }
+
+        .profissao{
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao"> 
+        </colgroup>
+        <caption>Colunas unidada jamais serão vencidas</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nana</td>
+                <td>F</td>
+                <td>26</td>
+                <td>Desempregada</td>
+            </tr>
+            <tr>
+                <td>Betinha</td>
+                <td>F</td>
+                <td>32</td>
+                <td>Empregada domestica</td>
+            </tr>
+            <tr>
+                <td>Amin Arrola</td>
+                <td>M</td>
+                <td>56</td>
+                <td>General</td>
+            </tr>
+            <tr>
+                <td>Alberto Pendenga</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Soldador</td>
+            </tr>
+            <tr>
+                <td>Maria do Carmo</td>
+                <td>F</td>
+                <td>48</td>
+                <td>Professora</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
